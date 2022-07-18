@@ -3,6 +3,9 @@ const path = require('path');
 const express = require('express');
 const {db} = require('./db/db.json');
 
+
+const {notes} = require('./db/db.json');
+ 
 const PORT = process.env.PORT || 3001;
 const app = express();
 
@@ -20,8 +23,8 @@ app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
 });
 
-app.post('/notes', (req, res) => {
-     
+app.post('/api/notes', (req, res) => {
+    console.log(req.body);
 });
 
 app.get('*', (req, res) => {
