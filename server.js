@@ -16,8 +16,12 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
-app.get('/animals', (req, res) => {
+app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
+});
+
+app.post('/notes', (req, res) => {
+     
 });
 
 app.get('*', (req, res) => {
