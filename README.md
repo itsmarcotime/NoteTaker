@@ -4,4 +4,4 @@
 
 ## Repo link: https://github.com/itsmarcotime/NoteTaker
 ## video example: https://www.awesomescreenshot.com/video/10013444?key=63d9ca4c072e6646f5db93ad0419295e
-## hearoku link: 
+## hearoku link: https://dashboard.heroku.com/apps/note-taker-app1281
